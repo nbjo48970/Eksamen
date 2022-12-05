@@ -150,6 +150,7 @@ a {
    margin: 0;
    padding: 0;
    background: #333;
+   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
 }
 .navigation li {
    /* flex-basis: 100%; */
