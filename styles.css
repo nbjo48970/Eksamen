@@ -76,14 +76,6 @@ color: GhostWhite;
   100%{background-position: -60300px;} /*Sætter slutposition for billedet*/
 }
 
-#knap{
-background-color: #4CAF50;
-border: none;
-padding: 15px 32px;
-display: inline-block;
-border-radius: 12px;
-}
-
 .split, .column{
   display: flex;
   flex-direction: column;
@@ -120,6 +112,20 @@ a {
    width: 100%;
    text-align: center;
    white-space: nowrap;
+}
+
+#knap{
+background-color: GhostWhite;
+color: Black;
+border: none;
+padding: 17px 57px;
+display: inline-block;
+border-radius: 12px;
+width: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
 }
 
 #logo{
