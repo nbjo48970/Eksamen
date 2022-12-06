@@ -25,7 +25,15 @@ img{
 }
 
 h2{
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  color: GhostWhite;
+}
+
+h3{
   margin-bottom: 1em;
+  font-size: 32px;
 }
 
 section{
@@ -59,17 +67,17 @@ header{
   line-height: 1;
 }
 
-.header p{
+/* .header p{
   font-size: 28px;
   text-align: center;
   color: GhostWhite;
-}
+} */
 
-.header h1{
+/* .header h1{
   font-size: 76px;
   font-weight: 900;
   text-align: center;
-}
+} */
 
 @keyframes play {
   0%{background-position: 0px;} /*Sætter startsposition for billedet*/
@@ -116,10 +124,12 @@ a {
 }
 
 #knap{
-  background-color: GhostWhite;
+  background-color: rgba(248,248,255,0.6);
   color: Black;
+  font-size: 18px;
+  font-weight: 400;
   border: none;
-  padding: 17px 57px;
+  padding: 17px 60px;
   display: inline-block;
   border-radius: 12px;
   width: 52px;
@@ -130,7 +140,7 @@ a {
 }
 
 #knap:hover{
-  background-color: Black;
+  background-color: rgba(0,0,0,0.6);
   color: GhostWhite;
 }
 
@@ -161,11 +171,11 @@ a {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: #000;
+  background: #030303;
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
 }
 .navigation li {
-  background: #000;
+  background: #030303;
   cursor: pointer;
 }
 
