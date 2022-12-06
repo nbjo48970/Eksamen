@@ -10,7 +10,7 @@ body{
   font-weight: 400;
   font-size: 24px;
   line-height: 1.6;
-  background-color: GhostWhite;
+  background-color: #F5F5F5;
 }
 
 img{
@@ -33,10 +33,10 @@ section{
 }
 
 .container{
-margin-left: auto;
-margin-right: auto;
-width: 90%;
-max-width: 70.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 70.5rem;
 }
 
 header{
@@ -60,9 +60,9 @@ header{
 }
 
 .header p{
-font-size: 28px;
-text-align: center;
-color: GhostWhite;
+  font-size: 28px;
+  text-align: center;
+  color: GhostWhite;
 }
 
 .header h1{
@@ -85,6 +85,7 @@ color: GhostWhite;
 .column {
   justify-content: center;
 }
+
 #webdesign img {
   width:100%;
 }
@@ -97,8 +98,8 @@ color: GhostWhite;
   width: 100%;
 }
 
-.fremhævet{
-background-color: Gainsboro;
+.fremhaevet{
+  background-color: Gainsboro;
 }
 
 a {
@@ -115,17 +116,22 @@ a {
 }
 
 #knap{
-background-color: GhostWhite;
-color: Black;
-border: none;
-padding: 17px 57px;
-display: inline-block;
-border-radius: 12px;
-width: 52px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
+  background-color: GhostWhite;
+  color: Black;
+  border: none;
+  padding: 17px 57px;
+  display: inline-block;
+  border-radius: 12px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#knap:hover{
+  background-color: Black;
+  color: GhostWhite;
 }
 
 #logo{
@@ -143,30 +149,29 @@ margin: auto;
 }
 
 .navigation ul li:nth-child(2):hover{
-  background: #333;
+  background: #000;
 }
 
 .navigation ul li:nth-child(1):hover{
-  background: #333;
+  background: #000;
 }
 
 .navigation ul {
-   flex-wrap: wrap;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   background: #333;
-   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
 }
 .navigation li {
-   /* flex-basis: 100%; */
-   background: #333;
-   cursor: pointer;
+  background: #000;
+  cursor: pointer;
 }
 
 footer{
-    height: auto;
-    display: flex;
+  height: auto;
+  display: flex;
 }
 
 footer img{
@@ -174,21 +179,17 @@ footer img{
 }
 
 #footer {
-  /* padding: 30px; */
   background-color: #333;
-   flex-direction: column;
-   display: flex;
-   width: 100vw;
-justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
 }
 
 #footermenu{
-    /* margin-top: 10px; */
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-    /* flex-direction: row; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #logoWrapper {
@@ -197,27 +198,24 @@ justify-content: center;
 }
 
 #cpright{
- font-weight: 400;
- line-height: 1.6;
-font-size: 16px;
-
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 #footermenu ul{
- list-style: none;
- display: flex;
- align-items: stretch;
- /* justify-content: center; */
- /* flex-direction: row; */
- padding-inline-start: 0;
- margin-block: 0; /* fuck safari */
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  padding-inline-start: 0;
+  margin-block: 0; /* fuck safari */
 }
 
 #footermenu ul li  {
- display: flex;
- align-items: center;
- cursor: pointer;
- padding: 20px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px 0;
 }
 
 #footermenu a{
@@ -239,7 +237,7 @@ font-size: 16px;
 }
 
 #footer #logoWrapper img{
-padding-top: 0;
+  padding-top: 0;
 }
 
 @media only screen and (min-width: 640px){
@@ -254,110 +252,96 @@ padding-top: 0;
     animation-fill-mode: forwards;
   }
 
- .split{
-   flex-direction: row;
-   justify-content: space-between;
- }
- /* .split > * {
-   flex-basis: 100%;
- } */
-
- /* .split > * + * {
-   margin-left: 35px;
- } */
- /* #kernevaerdierWrapper > * {
-   flex-basis: 100%;
+  .split{
+    flex-direction: row;
+    justify-content: space-between;
  }
 
- #kernevaerdierWrapper div:nth-child(2) {
-   margin-left: 35px;
- } */
-
- #Wrapper > * {
-   flex-basis: 100%;
+  #Wrapper > * {
+    flex-basis: 100%;
  }
 
- #Wrapper div:nth-child(2) {
-   margin-left: 130px;
+  #Wrapper div:nth-child(2) {
+    margin-left: 130px;
  }
 
- .column {
-   flex-direction: column;
+  .column {
+    flex-direction: column;
  }
 
- header{
-   padding: 120px 0;
+  header{
+    padding: 120px 0;
  }
 
- section{
-   padding: 120px 0;
+  section{
+    padding: 120px 0;
 }
 
-nav{
-  position: fixed;
-  width: 100vw;
+  nav{
+    position: fixed;
+    width: 100vw;
 }
 
-.navigation ul {
-   display: flex;
-   justify-content: flex-end;
-   flex-wrap: nowrap;
-   align-items: stretch;
-   padding: 0 30px;
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding: 0 30px;
 }
 
-.navigation li {
-   flex: 1;
-   display: flex;
-   align-items: center;
+  .navigation li {
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
-.navigation ul li:nth-child(2){
-  flex-grow: 6;
-  display: flex;
+  .navigation ul li:nth-child(2){
+    flex-grow: 6;
+    display: flex;
 }
 
-#logo{
- width:300px;
+  #logo{
+    width:300px;
 }
 
-a{
- padding: 10px 5px;
+  a{
+    padding: 10px 5px;
 }
 
-#footer {
-   flex-direction:row;
-   align-items: stretch;
-   justify-content: space-between;
+  #footer {
+    flex-direction:row;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
-#footer p {
-  text-align: left;
-  order: -1;
-  margin: 0 30px;
+  #footer p {
+    text-align: left;
+    order: -1;
+    margin: 0 30px;
 }
 
-#footermenu{
-  order: 2;
-  margin: 0 30px;
+  #footermenu{
+    order: 2;
+    margin: 0 30px;
 }
 
-#footer #logoWrapper{
-  display: flex;
-  justify-content: center;
-  order: 1;
+  #footer #logoWrapper{
+    display: flex;
+    justify-content: center;
+    order: 1;
 }
 
-#cpright{
- display: flex;
- align-items: center;
+  #cpright{
+    display: flex;
+    align-items: center;
 }
 
-#mobile-logo img {
-  display: none;
+  #mobile-logo img {
+    display: none;
 }
 
-#Wrapper{
+  #Wrapper{
   height: 67vh;
 }
 
