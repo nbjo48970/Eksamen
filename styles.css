@@ -109,27 +109,6 @@ a {
    white-space: nowrap;
 }
 
-/* #knap{
-  background-color: rgba(248,248,255,0.6);
-  color: Black;
-  font-size: 18px;
-  font-weight: 400;
-  border: none;
-  padding: 17px 60px;
-  display: inline-block;
-  border-radius: 12px;
-  width: 52px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-#knap:hover{
-  background-color: rgba(0,0,0,0.6);
-  color: GhostWhite;
-} */
-
 #logo{
   width:100%;
   max-width: none;
