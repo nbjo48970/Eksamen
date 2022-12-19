@@ -49,10 +49,9 @@ section{
 
 header{
   min-height: 100vh;
-  background-image: url("img/profilsh.JPG");
+  background-image: url("img/profil.jpg");
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
