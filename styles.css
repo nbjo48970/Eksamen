@@ -175,6 +175,7 @@ footer img{
 }
 
 #cpright{
+  display: flex;
   font-weight: 400;
   line-height: 1.6;
   font-size: 16px;
@@ -198,6 +199,7 @@ footer img{
 #footermenu a{
   padding: 6px;
   text-decoration: none;
+  font-size: 12px;
 }
 
 #footermenu ul li:hover{
@@ -290,6 +292,7 @@ footer img{
     flex-direction:row;
     align-items: stretch;
     justify-content: space-between;
+
 }
 
   #footer p {
@@ -299,19 +302,23 @@ footer img{
 }
 
   #footermenu{
+    display: flex;
     order: 2;
-    margin: 0 30px;
+    /* margin: 0 30px; */
+    flex-grow: 1;
 }
 
   #footer #logoWrapper{
     display: flex;
     justify-content: center;
     order: 1;
+    flex-grow: 1;
 }
 
   #cpright{
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 
   #mobile-logo img {
