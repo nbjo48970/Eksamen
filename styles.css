@@ -169,7 +169,7 @@ footer img{
   justify-content: center;
 }
 
-#logoWrapper {
+#logowrapper {
   display: flex;
   justify-content: center;
 }
@@ -215,7 +215,7 @@ footer img{
   color: GhostWhite;
 }
 
-#footer #logoWrapper img{
+#footer #logowrapper img{
   padding-top: 0;
 }
 
@@ -236,11 +236,11 @@ footer img{
     justify-content: space-between;
  }
 
-  #Wrapper > * {
+  #wrapper > * {
     flex-basis: 100%;
  }
 
-  #Wrapper div:nth-child(2) {
+  #wrapper div:nth-child(2) {
     margin-left: 130px;
  }
 
@@ -309,7 +309,7 @@ footer img{
     flex: 2;
 }
 
-  #footer #logoWrapper{
+  #footer #logowrapper{
     display: flex;
     justify-content: center;
     order: 1;
@@ -326,7 +326,7 @@ footer img{
     display: none;
 }
 
-  #Wrapper{
+  #wrapper{
   height: 67vh;
 }
 
